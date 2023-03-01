@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins' ,sans-serif;
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  padding: 20px;
+  box-shadow: 0px 3px 10px silver;
+}
+
+section{
+  padding: 20px;
+}
+
+.grey{
+  color:  rgba(0, 0, 1, 0.5);
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.airBrand{
+  display: flex;
+  justify-content: center;
+}
+
+.airBrand>img{
+  width: 8rem;
+  height: 4rem;
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.hero-image{
+  max-width: 70%;
+  height: 30rem;
+  align-self: center;
+}
+
+.hero-paragraph{
+  padding:5%;
+  align-self: flex-start;
+}
+
+.hero-paragraph>p{
+  width: 70%;
+}
+
+.imageAlbum{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  gap: 10px;
+  width: 250px;
+}
+
+
+
+.cardImage-purchaseStatus{
+  position: relative;
+}
+
+.card-image{
+  position: relative;
+  width: 100%;
+  height: 239px;
+  border-radius: 10px;
+}
+
+.card-purchase-status{
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(223, 239, 226, 0.7);
+  z-index: 100;
+}
+
+.card-inscription{
+  display: flex;
+  justify-content:flex-start;
+  gap: 5px;
+  flex-wrap: nowrap;
+  color: rgba(0, 0, 1, 0.5);
+}
+
+.card-star-image{
+  width: 14px;
+  height: 14px;
+}
+
+.card-country-position{
+  color: rgba(0, 0, 1, 0.5);
+  display: flex;
+  gap: 5px;
+}
+
+.card-country-position > li{
+  padding-left: 2px;
+}
+
+.card-country-position > li::marker{
+  color: rgba(0, 0, 1, 0.5);
+}
+
